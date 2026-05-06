@@ -8,6 +8,9 @@ public class BooksApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BooksApplication.class, args);
+		System.out.println("Books App Version 1");
 	}
+
+
 
 }
