@@ -8,7 +8,9 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class BooksEntity {
+      private long id;
       private String name;
       private String author;
       private String category;
+      private int rating;
 }
